@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		117288DB42C53774437E22A4 /* LKAlertController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 087D520DCC92C06E1BC1AAA6 /* LKAlertController.bundle */; };
+		69FD23F4225D03BF004EEE50 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD23F3225D03BF004EEE50 /* Extensions.swift */; };
+		69FD23F5225D03BF004EEE50 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD23F3225D03BF004EEE50 /* Extensions.swift */; };
+		69FD23F6225D03BF004EEE50 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD23F3225D03BF004EEE50 /* Extensions.swift */; };
 		75C454CE722BB186F2DA567F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8428BD70E2012C82E78D312D /* Foundation.framework */; };
 		7DC39AF1F0F9BE95088B5E0E /* Pods-LKAlertController_Tests-LKAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3EECFADFA74A8AD58760C3D /* Pods-LKAlertController_Tests-LKAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8EEB6399691D62B4A5080D97 /* Pods-LKAlertController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF327EEFEAD73B7F788444A /* Pods-LKAlertController_Tests-dummy.m */; };
@@ -42,6 +45,7 @@
 		478EFD8CE3F69A6AAD0CA4DB /* Pods-LKAlertController_Tests-LKAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LKAlertController_Tests-LKAlertController-prefix.pch"; sourceTree = "<group>"; };
 		52458E06831010EE190D0FC8 /* Pods-LKAlertController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKAlertController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		66D383E632BEE92EF6B14533 /* LKAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LKAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69FD23F3225D03BF004EEE50 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		6AFEEDA4FFE8121ED0609D24 /* Pods_LKAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F758FBA930A7E128020737D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79F7FBFDF59E8ACC2759A66F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -133,6 +137,7 @@
 		5B7999414A5FCC27C86DCB94 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				69FD23F3225D03BF004EEE50 /* Extensions.swift */,
 				BF115AFB1B556DCC00C3DDAE /* LKAlertController.swift */,
 			);
 			path = Classes;
@@ -285,23 +290,28 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 1020;
 				TargetAttributes = {
 					5CA33C1FF2D5E9409EA7E2DB = {
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Manual;
 					};
 					973639DE6C89179471D9EF58 = {
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Manual;
+					};
+					E7B25F78E10EF62CDDD8C9C9 = {
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
 			buildConfigurationList = E28A3E191A9B675691ADAA6F /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 6A102A2C07213BB2493E7987;
 			productRefGroup = AB9561B90F9AB366093D67DC /* Products */;
@@ -339,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9078BF22003659C586585595 /* Pods-LKAlertController_Tests-LKAlertController-dummy.m in Sources */,
+				69FD23F5225D03BF004EEE50 /* Extensions.swift in Sources */,
 				BF115AFC1B556DCC00C3DDAE /* LKAlertController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EEB6399691D62B4A5080D97 /* Pods-LKAlertController_Tests-dummy.m in Sources */,
+				69FD23F4225D03BF004EEE50 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69FD23F6225D03BF004EEE50 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,12 +393,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E6BE01351BBA38E5735FA414 /* Pods-LKAlertController_Tests-LKAlertController-Private.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-LKAlertController_Tests";
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Target Support Files/Pods-LKAlertController_Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = LKAlertController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
@@ -394,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2F685E034E1DE320EC7A4AA /* Pods-LKAlertController_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -404,7 +423,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-LKAlertController_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-LKAlertController_Tests/Pods-LKAlertController_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -415,6 +434,7 @@
 				PRODUCT_NAME = Pods_LKAlertController_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -436,7 +456,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-LKAlertController_Tests-LKAlertController/Pods-LKAlertController_Tests-LKAlertController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Pods-LKAlertController_Tests-LKAlertController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-LKAlertController_Tests-LKAlertController/Pods-LKAlertController_Tests-LKAlertController.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -444,7 +464,7 @@
 				PRODUCT_NAME = LKAlertController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -466,7 +486,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-LKAlertController_Tests-LKAlertController/Pods-LKAlertController_Tests-LKAlertController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Pods-LKAlertController_Tests-LKAlertController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-LKAlertController_Tests-LKAlertController/Pods-LKAlertController_Tests-LKAlertController.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -475,7 +495,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -486,12 +506,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E6BE01351BBA38E5735FA414 /* Pods-LKAlertController_Tests-LKAlertController-Private.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-LKAlertController_Tests";
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Target Support Files/Pods-LKAlertController_Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = LKAlertController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
@@ -500,6 +524,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 52458E06831010EE190D0FC8 /* Pods-LKAlertController_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -510,7 +535,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-LKAlertController_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-LKAlertController_Tests/Pods-LKAlertController_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -522,6 +547,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -532,18 +558,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -565,9 +600,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -576,18 +613,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -603,9 +649,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
